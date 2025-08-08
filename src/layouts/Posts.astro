@@ -27,10 +27,10 @@ const { className, posts, fluid } = Astro.props;
         {post.data.image && (
           <a
             href={`/${post.id}`}
-            class="rounded-lg block hover:text-primary overflow-hidden group"
+            class='rounded-lg block hover:text-primary overflow-hidden group'
           >
             <Image
-              class="group-hover:scale-[1.03] transition duration-300 w-full"
+              class='group-hover:scale-[1.03] transition duration-300 w-full'
               src={post.data.image}
               alt={post.data.title}
               width={i === 0 ? 925 : 445}
@@ -38,8 +38,8 @@ const { className, posts, fluid } = Astro.props;
             />
           </a>
         )}
-        <ul class="mt-6 mb-4 flex flex-wrap items-center text-text">
-          <li class="mr-5">
+        <ul class='mt-6 mb-4 flex flex-wrap items-center text-text'>
+          <li class='mr-5'>
             {authors
               .filter((author) =>
                 post.data.authors
@@ -49,7 +49,7 @@ const { className, posts, fluid } = Astro.props;
               .map((author) => (
                 <a
                   href={`/authors/${slugify(author.data.title)}`}
-                  class="flex items-center hover:text-primary font-medium"
+                  class='flex items-center hover:text-primary font-medium'
                 >
                   {author.data.image && (
                     <Image
@@ -57,26 +57,26 @@ const { className, posts, fluid } = Astro.props;
                       alt={author.data.title}
                       height={50}
                       width={50}
-                      class="mr-2 h-6 w-6 rounded-full"
+                      class='mr-2 h-6 w-6 rounded-full'
                     />
                   )}
                   <span>{author.data.title}</span>
                 </a>
               ))}
           </li>
-          <li class="mr-5 flex items-center flex-wrap font-medium">
-            <BiCalendarEdit className="mr-1 h-5 w-5 text-gray-600" />
+          <li class='mr-5 flex items-center flex-wrap font-medium'>
+            <BiCalendarEdit className='mr-1 h-5 w-5 text-gray-600' />
             {dateFormat(post.data.date!)}
           </li>
-          <li class="mr-5 flex items-center flex-wrap">
-            <BiCategoryAlt className="mr-1 h-[18px] w-[18px] text-gray-600" />
+          <li class='mr-5 flex items-center flex-wrap'>
+            <BiCategoryAlt className='mr-1 h-[18px] w-[18px] text-gray-600' />
 
             <ul>
               {post.data.categories.map((category, i: number) => (
-                <li class="inline-block">
+                <li class='inline-block'>
                   <a
                     href={`/categories/${slugify(category)}`}
-                    class="mr-2 hover:text-primary font-medium"
+                    class='mr-2 hover:text-primary font-medium'
                   >
                     {humanize(category)}
                     {i !== post.data.categories.length - 1 && ","}
@@ -86,15 +86,15 @@ const { className, posts, fluid } = Astro.props;
             </ul>
           </li>
         </ul>
-        <h3 class="mb-4">
+        <h3 class='mb-4'>
           <a
             href={`/${post.id}`}
-            class="block hover:text-primary transition duration-300"
+            class='block hover:text-primary transition duration-300'
           >
             {post.data.title}
           </a>
         </h3>
-        <p class="text-text">
+        <p class='text-text font-secondary'>
           {plainify(
             (post.body ?? "").slice(
               0,

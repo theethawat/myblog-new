@@ -41,25 +41,25 @@ const { title, meta_title, description, image, noindex, canonical } =
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang='en'>
   <head>
     <!-- favicon -->
-    <link rel="shortcut icon" href={config.site.favicon} />
+    <link rel='shortcut icon' href={config.site.favicon} />
     <!-- theme meta -->
-    <meta name="theme-name" content="bookworm-light-astro" />
-    <meta name="msapplication-TileColor" content="#000000" />
+    <meta name='theme-name' content='bookworm-light-astro' />
+    <meta name='msapplication-TileColor' content='#000000' />
     <meta
-      name="theme-color"
-      media="(prefers-color-scheme: light)"
-      content="#fff"
+      name='theme-color'
+      media='(prefers-color-scheme: light)'
+      content='#fff'
     />
     <meta
-      name="theme-color"
-      media="(prefers-color-scheme: dark)"
-      content="#000"
+      name='theme-color'
+      media='(prefers-color-scheme: dark)'
+      content='#000'
     />
-    <meta name="generator" content={Astro.generator} />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name='generator' content={Astro.generator} />
+    <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
 
     <!-- google font css -->
     <AstroFont
@@ -87,8 +87,8 @@ const { title, meta_title, description, image, noindex, canonical } =
 
     <!-- responsive meta -->
     <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=5"
+      name='viewport'
+      content='width=device-width, initial-scale=1, maximum-scale=5'
     />
 
     <!-- title -->
@@ -97,14 +97,14 @@ const { title, meta_title, description, image, noindex, canonical } =
     </title>
 
     <!-- canonical url -->
-    {canonical && <link rel="canonical" href={canonical} item-prop="url" />}
+    {canonical && <link rel='canonical' href={canonical} item-prop='url' />}
 
     <!-- noindex robots -->
-    {noindex && <meta name="robots" content="noindex,nofollow" />}
+    {noindex && <meta name='robots' content='noindex,nofollow' />}
 
     <!-- meta-description -->
     <meta
-      name="description"
+      name='description'
       content={plainify(
         description ? description : config.metadata.meta_description
       )}
@@ -113,11 +113,11 @@ const { title, meta_title, description, image, noindex, canonical } =
     <ClientRouter />
 
     <!-- author from config.json -->
-    <meta name="author" content={config.metadata.meta_author} />
+    <meta name='author' content={config.metadata.meta_author} />
 
     <!-- og-title -->
     <meta
-      property="og:title"
+      property='og:title'
       content={plainify(
         meta_title ? meta_title : title ? title : config.site.title
       )}
@@ -125,20 +125,20 @@ const { title, meta_title, description, image, noindex, canonical } =
 
     <!-- og-description -->
     <meta
-      property="og:description"
+      property='og:description'
       content={plainify(
         description ? description : config.metadata.meta_description
       )}
     />
-    <meta property="og:type" content="website" />
+    <meta property='og:type' content='website' />
     <meta
-      property="og:url"
+      property='og:url'
       content={`${config.site.base_url}/${Astro.url.pathname.replace("/", "")}`}
     />
 
     <!-- twitter-title -->
     <meta
-      name="twitter:title"
+      name='twitter:title'
       content={plainify(
         meta_title ? meta_title : title ? title : config.site.title
       )}
@@ -146,7 +146,7 @@ const { title, meta_title, description, image, noindex, canonical } =
 
     <!-- twitter-description -->
     <meta
-      name="twitter:description"
+      name='twitter:description'
       content={plainify(
         description ? description : config.metadata.meta_description
       )}
@@ -154,7 +154,7 @@ const { title, meta_title, description, image, noindex, canonical } =
 
     <!-- og-image -->
     <meta
-      property="og:image"
+      property='og:image'
       content={`${config.site.base_url}${
         image ? image : config.metadata.meta_image
       }`}
@@ -162,17 +162,17 @@ const { title, meta_title, description, image, noindex, canonical } =
 
     <!-- twitter-image -->
     <meta
-      name="twitter:image"
+      name='twitter:image'
       content={`${config.site.base_url}${
         image ? image : config.metadata.meta_image
       }`}
     />
-    <meta name="twitter:card" content="summary_large_image" />
+    <meta name='twitter:card' content='summary_large_image' />
   </head>
   <body>
     <TwSizeIndicator />
     <Header />
-    <main id="main-content" class="min-h-[60vh]">
+    <main id='main-content' class='min-h-[60vh]'>
       <slot />
     </main>
     <Footer />

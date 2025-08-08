@@ -2,7 +2,7 @@
   "colors": {
     "default": {
       "theme_color": {
-        "primary": "#01AD9F",
+        "primary": "#40E0D0",
         "body": "#fff",
         "border": "#D5D5D5",
         "light": "#FAFAFA",
@@ -17,10 +17,10 @@
   },
   "fonts": {
     "font_family": {
-      "primary": "Mulish:wght@400;600;700",
+      "primary": "Kanit:wght@300;400",
       "primary_type": "sans-serif",
-      "secondary": "",
-      "secondary_type": ""
+      "secondary": "Noto Sans:wght@300;400",
+      "secondary_type": "sans-serif"
     },
     "font_size": {
       "base": "16",

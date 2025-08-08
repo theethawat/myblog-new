@@ -1,26 +1,22 @@
 {
   "main": [
     {
-      "name": "Home",
+      "name": "หน้าแรก",
       "url": "/"
     },
     {
-      "name": "About",
+      "name": "เกี่ยวกับ",
       "url": "/about"
     },
     {
-      "name": "Contact",
-      "url": "/contact"
+      "name": "เว็บไซต์หลัก",
+      "url": "https://theethawat.dev"
     },
     {
-      "name": "Pages",
-      "url": "",
+      "name": "หมวดหมู่",
+      "url": "/categories",
       "hasChildren": true,
       "children": [
-        {
-          "name": "Authors",
-          "url": "/authors"
-        },
         {
           "name": "Categories",
           "url": "/categories"
@@ -28,14 +24,6 @@
         {
           "name": "Tags",
           "url": "/tags"
-        },
-        {
-          "name": "Elements",
-          "url": "/elements"
-        },
-        {
-          "name": "Privacy Policy",
-          "url": "/privacy-policy"
         }
       ]
     }
