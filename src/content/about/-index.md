@@ -1,23 +1,30 @@
 ---
-title: "I’m John Doe, A content writer based in LDN, Currently at Bookworm"
+title: "ผมชื่อติน ธีร์ธวัช สวาสดิ์ธรรม"
 meta_title: "About"
 image: "/images/author.png"
 draft: false
 
 what_i_do:
-  title: "What I Do"
+  title: "เราทำอะไร"
   items:
-  - title: "Content Writing"
-    description: "Purus eget ipsum elementum venenatis, quis rutrum mi semper nonpurus eget ipsum elementum venenatis."
-  
-  - title: "Photography"
-    description: "Aenean maximus urna magna elementum, quis rutrum mi semper non purus eget ipsum venenatis."
-  
-  - title: "Web Research"
-    description: "Aenean maximus urna magna elementum venenatis, quis semper non purus eget ipsum venenatis."
+    - title: "เขียนโปรแกรม และพัฒนา"
+      description: "ผมเคยเป็น Full-Stack Developer ตอนนี้ก็ยังเป็นแต่แค่เป็นงานอดิเรกและมีรับ Job บ้าง ผมมักจะใช้ MERN Stack คือ MongoDB Express React และ Node.js"
 
+    - title: "Writer and Creator"
+      description: "ผมไม่ใช่นักเขียนหรอก แค่เล่าไปมั่ว เวลาโพสต์ IG ทีก็โพสต์ยาว ๆ บางทีเกือบเต็ม หรือเต็มโควตาที่เขาให้ด้วยซ้ำ แล้วผมเองก็ชอบทำอะไรแปลกๆ ออกแบบเอง ทำของที่ระลึก คิด ออกแบบ แล้วจ้างทำบ้าง หรือ ทำเองบ้าง ชอบทำอะไรที่จะให้คนที่รักแล้วรู้สึกพิเศษไปกับมัน"
+
+    - title: "Researcher"
+      description: "ผมเป็นนักศึกษาและนักวิจัย อันนี้คืองานหลักของผม ตอนนี้กำลังศึกษาระดับปริญญาโทอยู่ และจะไปปริญญาเอกเร็วๆ นี้ครับ แล้วผมก็จะกลับมาส่งเสริมเด็กๆ ที่นี่ และเป็นกำลังสำคัญในการพัฒนาประเทศไทยต่อไป (ถ้าทำได้นะ)"
 ---
 
-A content writer with over 12 years experience working across brand identity, publishing and digital products. Maecenas sit amet purus eget ipsum elementum venenatis. Aenean maximus urna magna elementum venenatis quis non purus.
+ยังมีหลายเรื่องเลยที่อยากจะเล่า เป็นทั้งการแชร์ประสบการณ์ และความทรงจำ ออกมาเป็นอนุสรณ์สถานของกาลเวลาเอาไว้ที่นี่ ผมเองตอนนี้เป็นนักศึกษาวิศวกรรมคอมพิวเตอร์ ตอนนี้เรียนปริญญาโทอยู่ครับ
 
-Purus eget ipsum elementum venenatis. Aenean maximus urna magna elementum venenatis, quis rutrum mi semper non purus eget ipsum elementum venenatis, aenean maximus urna magna elementum.
+ชีวิตของผมเอง ก็จะมีความตื่นเต้น ลุ้น หรือ ไม่แน่ใจในสิ่งต่างๆ ที่ยังมาไม่ถึง และเราจินตนาการภาพไม่ออก
+แต่เมื่อผ่านมันมาแล้ว เราก็จะมานึกถึงความรู้สึกก่อนและหลังเหตุการณ์นั้น และอยากเอามาเล่า มาบันทึกเอาไว้ในที่นี่ครับ
+
+บทความในนี้อาจจะมีบทความเกี่ยวกับคอมพิวเตอร์บ้าง ประสบการณ์การทำงานบ้าง หรือ แม้แต่เรื่องอื่นๆ ความชอบ และความทรงจำของผม ตลอดช่วงเวลาที่ผ่านมา มาแชร์ให้ฟังกันครับ
+
+ติดตามผมได้ที่เว็บไซต์หลัก [theethawat.dev](https://theethawat.dev) โซเชี่ยลมีเดียของผม รวมถึงคอนเทนต์ของผมบางส่วน ผมก็จะเอาไปลงไว้ใน [Blockdit](https://www.blockdit.com/tintheethawat)
+แพลตฟอร์มบล็อกโซเชี่ยลมีเดียของคนไทย เพื่อลองให้คนอื่นได้เข้าถึงบทความของผมดู ดูว่ามีคนสนใจแค่ไหน ใครขี้เกียจอ่าน ก็เข้าไปที่ Blockdit แล้วกดฟังก็ได้ครับ เขามี AI ที่แปลงเป็นเสียงให้ฟังได้ด้วย
+
+ขอบคุณที่เข้ามาอ่านเรื่องราวชีวิตของผมนะครับ และมาเดินทางไปด้วยกัน
