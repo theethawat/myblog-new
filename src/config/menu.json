@@ -18,11 +18,11 @@
       "hasChildren": true,
       "children": [
         {
-          "name": "Categories",
+          "name": "หมวดหมู่",
           "url": "/categories"
         },
         {
-          "name": "Tags",
+          "name": "แท็ก",
           "url": "/tags"
         }
       ]
@@ -34,16 +34,12 @@
       "url": "/about"
     },
     {
-      "name": "Contact",
-      "url": "/contact"
+      "name": "Main Site",
+      "url": "https://theethawat.dev"
     },
     {
-      "name": "Elements",
-      "url": "/elements"
-    },
-    {
-      "name": "Privacy Policy",
-      "url": "/privacy-policy"
+      "name": "Categories",
+      "url": "/categories"
     }
   ]
 }

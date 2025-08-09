@@ -1,7 +1,7 @@
 ---
 title: "ผมชื่อติน ธีร์ธวัช สวาสดิ์ธรรม"
 meta_title: "About"
-image: "/images/author.png"
+image: "/images/tin_photo.jpg"
 draft: false
 
 what_i_do:
