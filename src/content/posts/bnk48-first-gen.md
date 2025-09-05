@@ -7,7 +7,7 @@ image: "/images/posts/bnk48first/jiwaru-day-2.jpg"
 categories: ["life"]
 authors: ["Theethawat Savastham"]
 tags: ["artist", "bnk48"]
-draft: false
+draft: true
 ---
 
 พูดยังไงดีหละ ในที่สุดวันนี้ก็มาถึงใช่มั้ย ใจหายเหมือนกันนะ ที่ BNK48 รุ่น 1 19 หมดสัญญาแล้วก็ออกไปเส้นทางใหม่
